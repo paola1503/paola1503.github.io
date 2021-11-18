@@ -25,11 +25,17 @@ html, body{
 #welcome-content h2{
     font-weight: 100;
     text-transform: uppercase;
-    font-size: 5em;
+    font-size: 3em;
     padding-left: 10vw;
     padding-right: 10vw;
     margin-top: 3vh;
     letter-spacing: 0.07em;
+}
+
+#welcome-content p{
+    text-transform: uppercase;
+    font-size: 5em;
+    margin-top: 3vh;
 }
 
 nav{
