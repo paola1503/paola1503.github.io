@@ -99,13 +99,42 @@ nav a:hover{
     padding: 1.5%;
 }
 
+#moodboards{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 #portfolio{
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
+#wordpress{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#instagram{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+#logos{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+#iphone{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
 @media(max-width: 1100px){
-    #portfolio{
+    #logos, #iphone{
+        grid-template-columns: 50% 50%;
+    }
+
+    #moodboards, #portfolio, #wordpress, #instagram{
         display: block;
     }
 }
